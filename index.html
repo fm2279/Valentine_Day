@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9e1e1;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #e63946;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sorry I couldn't take you out tonight, but here are some of our best moments during our dates :D</h1>
+        <hr>
+        <div class="gallery">
+            <img src="../Valentine_Day/assets/images/vpic1.jpg" alt="Valentine's Day Image 1">
+            <img src="../Valentine_Day/assets/images/vpic2.jpg" alt="Valentine's Day Image 2">
+            <img src="../Valentine_Day/assets/images/IMG_5957.jpg" alt="Valentine's Day Image 3">
+            <img src="../Valentine_Day/assets/images/IMG_5959.jpg" alt="Valentine's Day Image 4">
+            <img src="../Valentine_Day/assets/images/vpic5.jpg" alt="Valentine's Day Image 5">
+            <img src="../Valentine_Day/assets/images/vpic6.jpg" alt="Valentine's Day Image 6">
+            <img src="../Valentine_Day/assets/images/vpic7.jpg" alt="Valentine's Day Image 7">
+            <img src="../Valentine_Day/assets/images/IMG_5960.jpg" alt="Valentine's Day Image 8">
+            <img src="../Valentine_Day/assets/images/vpic9.jpg" alt="Valentine's Day Image 9">
+            <img src="../Valentine_Day/assets/images/vpic10.jpg" alt="Valentine's Day Image 10">
+            <img src="../Valentine_Day/assets/images/vpic11.jpg" alt="Valentine's Day Image 11">
+            <img src="../Valentine_Day/assets/images/vpic12.jpg" alt="Valentine's Day Image 12">
+        </div>
+        <hr>
+        <div class="container">
+            <h1>If I took you out in real life, I would've asked you...</h1>
+            <form>
+                <label for="valentine">Will You Be My Valentine Again? :D</label><br>
+                <input type="checkbox" id="valentine" name="valentine" value="yes">
+                <label for="valentine">Yes</label><br>
+                <input type="checkbox" id="no_valentine" name="valentine" value="no">
+                <label for="no_valentine">No</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
